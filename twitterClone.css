@@ -1283,7 +1283,9 @@
 }
 .greeting{
     color: rgb(32,37,41);
-    font-family:  Arial, sans-serif
+    font-family:  Arial, sans-serif;
+    border: 2px solid red;
+    margin-left: 2.7rem;
 }
 
 
