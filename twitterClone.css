@@ -1,0 +1,2354 @@
+.allcontent{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+.symbols-div{
+    width: 13%;
+    /* border: 2px solid blue; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-end;
+    overflow-y: scroll;
+    scrollbar-color: grey;
+    scrollbar-width: 1rem;
+}
+
+.biodate-div{
+    width: 50%;
+    /* border: 2px solid brown; */
+    height: 100%;
+    border: 0.1px solid rgb(239, 236, 236);
+}
+
+.followers-div{
+    width: 37%;
+    /* border: 0.1px solid gainsboro; */
+    height: 250vh;
+}
+
+.twitterIcon{
+    /* border: 2px solid green; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+    
+}
+
+.twitterIcon:hover{
+    background-color: gainsboro;
+}
+
+.homeIcon{
+    /* border: 2px solid green; */
+    width: 1.8rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+.homeIcon:hover{
+    background-color: gainsboro; 
+}
+
+.searchIcon{
+    /* border: 2px solid green; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+.searchIcon:hover{
+    background-color: gainsboro;
+}
+
+.notificationIcon{
+    /* border: 2px solid green; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+.notificationIcon:hover{
+    background-color: gainsboro;
+}
+
+.emailIcon{
+    /* border: 2px solid green; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+.emailIcon:hover{
+    background-color: gainsboro;
+}
+
+.grokIcon{
+    /* border: 2px solid green; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+.grokIcon:hover{
+    background-color: gainsboro;
+}
+
+.notesIcon{
+    /* border: 2px solid green; */
+    width: 1.7rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+.notesIcon:hover{
+    background-color: gainsboro;
+}
+
+.profileIcon{
+    /* border: 2px solid green; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+.profileIcon:hover{
+    background-color: gainsboro;
+}
+
+.messageIcon{
+    /* border: 2px solid green; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+    
+}
+
+.messageIcon:hover{
+    background-color: gainsboro;
+}
+
+
+.postIcon{
+    /* border: 2px solid green; */
+    width: 2.3rem;
+    border-radius: 50%; 
+    margin: 0.2rem;
+    padding: 0.3rem;
+    background-color: rgb(29,155,240);
+    
+    
+    
+}
+.postIcon:hover{
+    background-color:rgb(7, 109, 177);
+    
+    
+    
+}
+
+
+.profilePicIcon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+    padding: 0.3rem;
+
+}
+.profilePicIcon:hover{
+    background-color: gainsboro;
+}
+
+.fortune-div{
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: row;
+    height: 7.5vh;
+    position: relative;
+   
+}
+
+.iconBack-div{
+    /* border: 2px solid yellowgreen; */
+    width: 3rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+
+
+}
+   
+.iconBack{
+    /* border: 3px solid black; */
+    width: 2.5rem;
+    height: 4vh;
+    padding: 0.2rem;
+    margin: 0.4rem;
+    border-radius: 50%;
+
+}
+
+.iconBack:hover{
+    background-color: gainsboro;
+    
+}
+
+.chimezie{
+    /* border:2px solid blue; */
+    width: 15rem;
+    height: 10vh;
+    
+    
+}
+
+.mezie{
+    /* border: 1px green solid; */
+    display: flex;
+    align-items: flex-start;
+    font-family: arial;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.posts{
+    /* border: 1px yellowgreen solid; */
+    padding: 0.2rem;
+    font-style: gainsboro;
+    color: grey;
+
+}
+
+.backgroundImage{
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+
+.biodate-div{
+    position: relative;
+}
+
+.semiSecond-div{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    position: relative;
+    height: 20vh;
+
+}
+.follow{
+    /* border: 2px red solid; */
+    border-radius: 42%;
+    width: 4rem;
+    height: 3vh;
+    padding: 0.5rem;
+    /* font-size: large; */
+    font-weight: bold;
+    text-decoration: black;
+    border: none;
+    margin: 0.2rem 0.5rem;
+}
+ 
+.fortunesImage{
+    width: 8rem;
+    border-radius: 50%;
+    height: 8rem;
+    
+
+
+}
+
+.fortunesImage-div{
+    border: 4px solid white;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: -4rem;
+
+}
+.chimezieHistory-div{
+    /* border: 2px solid blue; */
+    margin-top: -3rem;
+   
+}
+
+.page-div{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+.threeDot{
+    border: 0.1px solid rgb(224, 209, 209);
+    /* margin: 1rem; */
+    width: 1.5rem;
+    border-radius: 50%;
+    height: 1.5rem;
+    padding: 2px;
+    margin: 0.2rem 0.5rem;
+}
+
+.threeDot:hover{
+    background-color: gainsboro;
+}
+
+.bellIcon{
+    border: 0.1px solid rgb(224, 209, 209);
+    /* margin: rem; */
+    width: 1.5rem;
+    border-radius: 50%;
+    height: 1.5rem;
+    padding: 2px;
+    margin: 0.2rem 0.5rem;
+    
+}
+
+.bellIcon:hover{
+    background-color: gainsboro;
+}
+
+.writeUp{
+    width: 50%;
+    /* border: 2px yellow solid; */
+    height: 1.5rem;
+    margin: 0.5rem;
+    font-family: arial;
+    font-size: larger;
+    font-weight: 790;
+}
+
+.writeups-div{
+    /* border: 2px green solid; */
+    margin: 0.4rem;
+    
+}
+
+.chinakaChimezie{
+    /* border: 1px solid red;  */
+    height: 1.3rem;
+    margin: 0.5rem;
+    color: rgb(96, 96, 96);
+    font-family: arial;
+    margin-top: -0.7rem;
+    
+}
+
+.following-wing-a{
+    /* border: 2px solid greenyellow; */
+    width:50%;
+    display: flex;
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin:0.6rem;
+}
+
+.following-wing-a:hover{
+    text-decoration: underline;
+    color: black;
+}
+ 
+.llowin{
+    display: flex;
+    /* border: 2px brown solid; */
+    flex-direction:row;
+    width: 23%;
+}
+.wing{
+    /* border: 1px solid green; */
+    width: 100%;
+    color: rgb(91, 90, 90);
+    margin-left: 0.2rem;
+    /* margin-top: 1.2rem;
+    margin: 0.3rem 0 0 0; */
+}   
+
+.followers{
+    text-decoration: none; 
+    /* border: 1px red solid; */
+    margin: 0.5rem;
+    color:black;
+    font-size: bold;
+    /* width: 30%; */
+}
+
+.seventeen{
+    /* border: 1px red solid; */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
+    margin-left: 0.8rem;
+}
+
+.followers:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.fwingollowing{
+    /* border: 1px red solid; */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;   
+}
+
+.following-div{
+ display: flex;
+ flex-direction: row;
+ /* border: 2px solid red;  */
+ width: 70% ;
+ height: 6vh;
+ margin-left: 0.4rem;
+}
+
+.llower{
+    display: flex;
+    /* border: 2px brown solid;  */
+    flex-direction:row;
+    width: 40%;
+  
+    
+}
+
+.llower:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.wers{
+    /* border: 2px solid green; */
+    width: 100%;
+    /* margin-top: 0.5rem; */
+    color: rgb(91, 90, 90);
+    margin-left: 0.2rem;
+}
+
+.werswers{
+    /* display: flex;
+    border: 2px solid purple;
+    text-decoration: none;
+    margin-top: ;
+     */
+    width:50%;
+    display: flex;
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin:0.6rem; 
+}
+
+.werswers:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.litcal-div{
+    /* border: 2px solid brown; */
+    display: flex;
+    
+
+}
+
+.liteIcon{
+    /* border: 2px solid red; */
+    width: 1.7rem;
+   
+
+}
+
+.calender{
+    /* border: 2px solid red; */
+    width: 1.7rem;
+    
+}
+
+.october-div{
+    color: rgb(107, 104, 104);
+    font-size: 1rem;
+    font-family: arial;
+    
+}
+
+.Lagos-div{
+    /* border: 2px solid red; */
+    color: rgb(107, 104, 104);
+    font-size: 1rem;
+    font-family: arial;
+  
+
+}
+
+
+.Udacity{
+    /* border: 2px solid red; */
+    color:rgb(29, 28, 28);
+    margin: 0.1rem;
+    font-size: medium;
+    padding: 0.4rem;
+    font-family: arial;
+    
+    
+}
+
+.prml-div{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    height: 7vh;
+    align-items: center;
+   
+}
+
+.Posts{
+    /* border: 4px solid greenyellow; */
+    width: 6.5rem;
+    height:1.8rem ;
+    text-align: center;
+    justify-content: center;
+    padding: 0.2rem 1.25rem;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+.Posts:hover{
+   box-shadow: 0.5px 0.3px 0.5px 0.3px gray;
+   background-color: gainsboro;
+}
+
+.Replies{
+    /* border: 4px solid greenyellow; */
+    width: 6.5rem;
+    height:1.8rem ;
+    text-align: center;
+    justify-content: center;
+    padding: 0.2rem 1.25rem;
+    font-weight: bold; 
+    font-size: medium;
+    color: rgb(91, 90, 90);
+}
+
+.Replies:hover{
+    box-shadow: 0.5px 0.3px 0.5px 0.3px gray;
+    background-color: gainsboro;
+}
+
+.Media{
+    /* border: 4px solid greenyellow; */
+    width: 6.5rem;
+    height:1.8rem ;
+    text-align: center;
+    justify-content: center;
+    padding: 0.2rem 1.25rem;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(91, 90, 90);
+}
+
+.Media:hover{
+    box-shadow: 0.5px 0.3px 0.5px 0.3px gray;
+    background-color: gainsboro;
+}
+
+.Likes{
+    /* border: 4px solid greenyellow; */
+    width: 6.5rem;
+    height:1.8rem ;
+    text-align: center;
+    justify-content: center;
+    padding: 0.2rem 1.25rem;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(91, 90, 90);
+}
+
+.Likes:hover{
+    box-shadow: 0.5px 0.3px 0.5px 0.3px gray;
+    background-color: gainsboro;
+}
+
+
+.notfollowed-div{
+    /* border: 1px solid blue; */
+    color: rgb(91, 90, 90);
+    margin: 0.5rem;
+    font-family: inherit;
+    font-size:0.9rem;  
+    margin-bottom: 1.3rem;
+    margin-left: 1rem;
+
+}
+
+.smallChimezie{
+    /* border: 3px brown; */
+    width: 98%;
+    /* height: 100%; */
+    border-radius: 5rem;
+    height: 98%; 
+}
+
+.allSmallChimezie-div{
+    /* border: 2px solid purple; */
+    display: flex; 
+    flex-direction: column;
+    width: 97%;
+    margin-left: 1rem;
+}
+.smallChimezie-div{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 95%;
+    height: 7vh;
+   
+}
+.scLine-div{
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    margin-left: 0.5rem;
+}
+.fchzi{
+    font-weight: bold;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+    font-size: medium;
+}
+.fchzi:hover{
+    text-decoration: underline;
+}
+.ccm{
+    color: rgb(91, 90, 90);
+    margin-left: 0.2rem;
+}
+.imgsmc{
+    /* border: 2px solid green; */
+    width: 6.5%;
+    /* height: 15%; */
+    border-radius: 2rem;
+    padding: 2px;  
+}
+.imgsmc:hover{
+    background-color:rgb(239, 236, 236);
+}
+
+.usingflash{
+    border: 1px solid rgb(213, 213, 213);
+    display: flex;
+    width: 85%;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+   
+}
+.tester{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tester:hover{
+    background-color:rgb(239, 236, 236);
+}
+.imagetouse{
+    /* border: 2px solid green; */
+    width: 40%;
+    padding: 3px;
+}
+.workup{
+    color: rgb(91, 90, 90);
+    font-size: medium;
+    margin-bottom: 0.3rem;
+}
+.lication{
+    color: rgb(30, 28, 28);
+    font-size: medium;
+    margin-bottom: 0.3rem;
+}
+.apirestful{
+    color: rgb(91, 90, 90);
+    font-size: medium;
+}
+
+.crhab{
+    /* border: 2px solid rgb(23, 23, 24); */
+    display: flex;
+    width: 99%;
+    justify-content: space-around;
+    height: 5vh;
+}
+.commentdiv{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 1rem;
+    border-radius: 3rem;
+}
+.comment{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 2.5px;
+}
+.commentdiv:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.retweetdiv{
+    /* border: 1px solid green; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 3rem;
+}
+.retweet{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.retweetdiv:hover{
+    background-color: rgb(149, 239, 149);
+}
+.lovediv{
+    /* border: 1px pink solid; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 3rem; 
+}
+.love{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.lovediv:hover{
+    background-color: rgb(252, 209, 216);
+}
+.analyticsdiv{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 2.4rem;
+}
+.analytics{
+    /* border: 1px brown solid; */
+    width: 84%;
+    border-radius: 2rem;
+    padding: 2.8px;
+}
+.analyticsdiv:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.bookmarkImagediv{
+    /* border: 1px solid blue;  */
+    width: 4.2%;
+    margin-left: 6rem;
+    border-radius: 2rem;
+}
+.bookmarkImage{
+    /* border: 1px brown solid;  */
+    width: 74%;
+    border-radius: 2rem;
+    padding:2px;
+}
+.bookmarkImage:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.shareIcondiv{
+    /* border: 1px solid blue;  */
+    width:5%;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    height: 4vh;
+   
+}
+.shareIcon{
+    /* border: 1px brown solid;  */
+    width: 90%;
+    border-radius: 3rem;
+    padding:2px;
+    /* margin: 0.2rem; */
+}
+
+.shareIcondiv:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.meshr-div{
+    /* border: 3px solid red; */
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    margin: 0.8rem;
+}
+.hermes{
+    /* border: 2px solid blue ; */
+    width: 5%;
+    
+}
+.rete{
+    /* border: 2px solid green; */
+    width: 74%;
+    padding: 2px;
+    margin:0.4rem;
+  
+   
+}
+.repfrc{
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(88, 83, 83) ;
+    margin-left: 0.2rem;
+}
+.repfrc:hover{
+    text-decoration: underline;
+}
+.Nifui{
+    /* border: 4px solid green; */
+    width: 100%;
+    margin-right: 4rem;
+
+    
+}
+.bigtee{
+    /* border: 2px brown solid; */
+    display: flex;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+.niImage{
+    /* border: 2px solid brown; */
+    width: 99%;
+    margin-left: 0.2rem;
+    margin-top: -0.3rem; 
+    border-radius: 10rem;
+}
+.niImage-div:hover{
+    background-color: rgb(245, 233, 233);
+}
+.niImage-div{
+    /* border: 2px solid blueviolet; */
+    width: 8%;
+    height: 6vh;
+    border-radius: 10rem;
+    padding: 4px;
+}
+
+.nseleven{
+    /* border: 1px solid brown; */
+    width: 98%;
+
+}
+.verifiedIcon{
+    /* border: 2px yellowgreen solid; */
+    width: 65%;
+    margin-bottom: -0.1rem; 
+}
+.verifiedIcon-div{
+    /* border: 2px solid rgb(83, 43, 83); */
+    width: 5%;
+}
+.nvis{
+    /* border: 1px solid black; */
+    display: flex;
+  
+}
+.ninetynineThree{
+    /* border: 2px solid peru; */
+    font-weight: bold;
+    font-family:  Arial, sans-serif;
+}
+.ninetynineThree:hover{
+    text-decoration: underline;
+}
+.infoFM{
+    color: rgb(91, 90, 90);
+    margin-right: 0.3rem;
+}
+.september{
+    color: rgb(91, 90, 90);
+}
+.september:hover{
+    text-decoration: underline;
+}
+.bigSomething{
+    color:rgb(31, 161, 247);
+    font-family:  Arial, sans-serif;
+    text-decoration: none;
+}
+.bigSomething:hover{
+    text-decoration: underline;
+}
+
+.unveiledGame{
+    color: rgb(15,20,25);
+    font-family:  Arial, sans-serif;
+
+}
+.letsTalk{
+    margin-left: 3rem;
+    color:rgb(31, 161, 247);
+    text-decoration: none;
+}
+.letsTalk:hover{
+    text-decoration: underline;
+}
+.letsTalk-div{
+    margin-bottom: 0.7rem;
+}
+.fatg{
+    color:rgb(31, 161, 247);
+    text-decoration: none;
+
+}
+.fatg:hover{
+    text-decoration: underline;
+}
+
+.football-div{
+    /* border: 2px solid purple; */
+    width: 92%;
+    margin-left: 2rem;
+}
+.footballBackground{
+    /* border: 2px solid peru; */
+    width: 98%;
+}
+
+.crhabTwo{
+    /* border: 2px solid rgb(23, 23, 24); */
+    display: flex;
+    width: 99%;
+    justify-content: space-around;
+    height: 5vh;
+}
+.commentdivTwo{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 1rem;
+    border-radius: 3rem;
+
+}
+.commentTwo{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 2.5px;
+}
+.commentdivTwo:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.retweetdivTwo{
+    /* border: 1px solid green; */
+    width: 5%;
+    margin-left: 3.5rem;
+    border-radius: 3rem;
+    margin-top: 0.1rem;
+ 
+}
+.retweetTwo{
+    /* border: 1px brown solid; */
+    width: 84%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.retweetdivTwo:hover{
+    background-color: rgb(149, 239, 149);
+}
+.lovedivTwo{
+    /* border: 1px pink solid; */
+    width: 5%;
+    margin-left: 3.5rem;
+    border-radius: 3rem; 
+}
+.loveTwo{
+    /* border: 1px brown solid; */
+    width: 83%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.lovedivTwo:hover{
+    background-color: rgb(252, 209, 216);
+}
+.analyticsdivTwo{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 4rem;
+    border-radius: 2.4rem;
+}
+.analyticsTwo{
+    /* border: 1px brown solid; */
+    width: 84%;
+    border-radius: 2rem;
+    padding: 2.8px;
+}
+.analyticsdivTwo:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.bookmarkImagedivTwo{
+    /* border: 1px solid blue;  */
+    width: 4.2%;
+    margin-left: 7rem;
+    border-radius: 2rem;
+}
+.bookmarkImageTwo{
+    /* border: 1px brown solid;  */
+    width: 74%;
+    border-radius: 2rem;
+    padding:2px;
+}
+.bookmarkImageTwo:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.shareIcondivTwo{
+    /* border: 1px solid blue;  */
+    width:5%;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    height: 4vh;
+   
+}
+.shareIconTwo{
+    /* border: 1px brown solid;  */
+    width: 90%;
+    border-radius: 3rem;
+    padding:2px;
+    /* margin: 0.2rem; */
+}
+
+.shareIcondivTwo:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.numberFiftynine{
+    color: rgb(84, 82, 82);
+    margin-left: -0.8rem;
+    margin-top: 0.6rem;
+}
+
+.numberEight{
+    color: rgb(84, 82, 82);
+    margin-left: -0.7rem;
+    margin-top: 0.5rem;
+}
+.twentySix{
+    color: rgb(84, 82, 82);
+    margin-left: -0.7rem;
+    margin-top: 0.5rem;
+}
+.runTown-div{
+    display: flex;
+    /* border: 2px solid green; */
+}
+.runTown{
+    /* border: 2px yellow solid; */
+    margin-left: 1rem;
+    width: 10%;
+    border-radius: 4rem;
+    height: 7vh;
+}
+.runTown:hover{
+    background-color: rgb(191, 189, 189);
+}
+
+.runT{
+    /* border: 1px solid purple; */
+    width: 88%;
+    border-radius: 3rem;
+}
+
+.runtownBadge{
+    /* border: 1px solid black; */
+    width: 70%;
+    margin-top: -0.2rem; 
+}
+
+.shiftRun{
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.pwyraas{
+    color: rgb(32,37,41);
+    font-family:  Arial, sans-serif;
+}
+.nowtun{
+   font-weight: bolder;
+   font-family:  Arial, sans-serif;
+}
+
+.iRuntown{
+    color: rgb(77, 75, 75);
+    margin-right: 0.2rem;
+    font-family:  Arial, sans-serif;
+    
+}
+.twentyTwenty{
+    color: rgb(77, 75, 75);
+    margin-right: 0.2rem;
+    font-family:  Arial, sans-serif;
+}
+.twentyTwenty:hover{
+    text-decoration: underline;
+}
+
+.crhabThree{
+    /* border: 2px solid rgb(23, 23, 24); */
+    display: flex;
+    width: 99%;
+    justify-content: space-around;
+    height: 5vh;
+}
+.commentdivThree{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 1rem;
+    border-radius: 3rem;
+
+}
+.commentThree{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 2.5px;
+    margin-left: 3rem;
+}
+
+.retweetdivThree{
+    /* border: 1px solid green; */
+    width: 5%;
+    margin-left: 3.5rem;
+    border-radius: 3rem;
+    margin-top: 0.1rem;
+ 
+}
+.retweetThree{
+    /* border: 1px brown solid; */
+    width: 84%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.retweetdivThree:hover{
+    background-color: rgb(149, 239, 149);
+}
+.lovedivThree{
+    /* border: 1px pink solid; */
+    width: 5%;
+    margin-left: 3.5rem;
+    border-radius: 3rem; 
+}
+.loveThree{
+    /* border: 1px brown solid; */
+    width: 83%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.lovedivThree:hover{
+    background-color: rgb(252, 209, 216);
+}
+.analyticsdivThree{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 4rem;
+    border-radius: 2.4rem;
+}
+.analyticsThree{
+    /* border: 1px brown solid; */
+    width: 84%;
+    border-radius: 2rem;
+    padding: 2.8px;
+}
+.analyticsdivThree:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.bookmarkImagedivThree{
+    /* border: 1px solid blue;  */
+    width: 4.2%;
+    margin-left: 7rem;
+    border-radius: 2rem;
+}
+.bookmarkImageThree{
+    /* border: 1px brown solid;  */
+    width: 74%;
+    border-radius: 2rem;
+    padding:2px;
+}
+.bookmarkImageThree:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.shareIcondivThree{
+    /* border: 1px solid blue;  */
+    width:5%;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    height: 4vh;
+   
+}
+.shareIconThree{
+    /* border: 1px brown solid;  */
+    width: 90%;
+    border-radius: 3rem;
+    padding:2px;
+    /* margin: 0.2rem; */
+}
+
+.shareIcondivThree:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.numberFourteen{
+    color: rgb(84, 82, 82);
+    margin-left: 2.5rem;
+    margin-top: 0.4rem;
+}
+
+.numberSixsev{
+    color: rgb(84, 82, 82);
+    margin-left: -0.2rem;
+    margin-top: 0.5rem;
+
+}
+.thirtyNine{
+    color: rgb(84, 82, 82);
+    margin-left: -0.4rem;
+    margin-top: 0.5rem;
+}
+
+.smallChimezieTwo{
+    /* border: 3px brown; */
+    width: 98%;
+    /* height: 100%; */
+    border-radius: 5rem;
+    height: 98%; 
+}
+
+.allSmallChimezie-divTwo{
+    border: 2px solid purple; 
+    display: flex; 
+    flex-direction: column;
+    width: 97%;
+    margin-left: 1rem;
+}
+.smallChimezie-divTwo{
+    border: 2px solid black;
+    display: flex;
+    width: 99%;
+    height: 7vh;
+   
+}
+.scLine-divTwo{
+    /* border: 2px solid red;  */
+    width: 98%;
+    display: flex;
+    margin-left: 0.5rem;
+}
+.fchziTwo{
+    font-weight: bold;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+    font-size: medium;
+}
+.fchziTwo:hover{
+    text-decoration: underline;
+}
+.ccmTwo{
+    color: rgb(91, 90, 90);
+    margin-left: 0.2rem;
+}
+.imgsmcTwo{
+    /* border: 2px solid green; */
+    width: 6.5%;
+    /* height: 15%; */
+    border-radius: 2rem;
+    padding: 2px;  
+}
+.imgsmcTwo:hover{
+    background-color:rgb(239, 236, 236);
+}
+.greeting{
+    color: rgb(32,37,41);
+    font-family:  Arial, sans-serif
+}
+
+
+.smallChimezieThree{
+    /* border: 3px brown; */
+    width: 98%;
+    /* height: 100%; */
+    border-radius: 5rem;
+    height: 98%; 
+}
+
+.allSmallChimezie-divThree{
+    border: 2px solid purple; 
+    display: flex; 
+    flex-direction: column;
+    width: 97%;
+    margin-left: 1rem;
+}
+.smallChimezie-divThree{
+    border: 2px solid black;
+    display: flex;
+    width: 95%;
+    height: 7vh;
+   
+}
+.scLine-divThree{
+    /* border: 2px solid red; */
+    width: 98%;
+    display: flex;
+    margin-left: 0.5rem;
+}
+.fchziThree{
+    font-weight: bold;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+    font-size: medium;
+}
+.fchziThree:hover{
+    text-decoration: underline;
+}
+.ccmThree{
+    color: rgb(91, 90, 90);
+    margin-left: 0.2rem;
+}
+.imgsmcThree{
+    /* border: 2px solid green; */
+    width: 6.5%;
+    /* height: 15%; */
+    border-radius: 2rem;
+    padding: 2px;  
+}
+.imgsmcThree:hover{
+    background-color:rgb(239, 236, 236);
+}
+
+.crhabFour{
+    border: 2px solid rgb(23, 23, 24);
+    display: flex;
+    width: 99%;
+    justify-content: space-around;
+    height: 5vh;
+}
+.commentdivFour{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 1rem;
+    border-radius: 3rem;
+}
+.commentFour{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 2.5px;
+}
+.commentdivFour:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.retweetdivFour{
+    /* border: 1px solid green; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 3rem;
+}
+.retweetFour{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.retweetdivFour:hover{
+    background-color: rgb(149, 239, 149);
+}
+.lovedivFour{
+    /* border: 1px pink solid; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 3rem; 
+}
+.loveFour{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.lovedivFour:hover{
+    background-color: rgb(252, 209, 216);
+}
+.analyticsdivFour{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 2.4rem;
+}
+.analyticsFour{
+    /* border: 1px brown solid; */
+    width: 84%;
+    border-radius: 2rem;
+    padding: 2.8px;
+}
+.analyticsdivFour:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.bookmarkImagedivFour{
+    /* border: 1px solid blue;  */
+    width: 4.2%;
+    margin-left: 6rem;
+    border-radius: 2rem;
+}
+.bookmarkImageFour{
+    /* border: 1px brown solid;  */
+    width: 74%;
+    border-radius: 2rem;
+    padding:2px;
+}
+.bookmarkImageFour:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.shareIcondivFour{
+    /* border: 1px solid blue;  */
+    width:5%;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    height: 4vh;
+   
+}
+.shareIconFour{
+    /* border: 1px brown solid;  */
+    width: 90%;
+    border-radius: 3rem;
+    padding:2px;
+    /* margin: 0.2rem; */
+}
+
+.shareIcondivFour:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.greeting{
+    color: rgb(32,37,41);
+    font-family:  Arial, sans-serif;
+}
+.grateful-div{
+    color: rgb(32,37,41);
+    
+    
+}
+
+.crhabFive{
+    /* border: 2px solid rgb(23, 23, 24); */
+    display: flex;
+    width: 99%;
+    justify-content: space-around;
+    height: 5vh;
+}
+.commentdivFive{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 1rem;
+    border-radius: 3rem;
+}
+.commentFive{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 2.5px;
+}
+.commentdivFive:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.retweetdivFive{
+    /* border: 1px solid green; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 3rem;
+}
+.retweetFive{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.retweetdivFive:hover{
+    background-color: rgb(149, 239, 149);
+}
+.lovedivFive{
+    /* border: 1px pink solid; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 3rem; 
+}
+.loveFive{
+    /* border: 1px brown solid; */
+    width: 82%;
+    border-radius: 3rem;
+    padding: 3px;
+}
+.lovedivFive:hover{
+    background-color: rgb(252, 209, 216);
+}
+.analyticsdivFive{
+    /* border: 1px solid blue; */
+    width: 5%;
+    margin-left: 3.2rem;
+    border-radius: 2.4rem;
+}
+.analyticsFive{
+    /* border: 1px brown solid; */
+    width: 84%;
+    border-radius: 2rem;
+    padding: 2.8px;
+}
+.analyticsdivFive:hover{
+    background-color:rgb(187, 224, 249) ;
+}
+.bookmarkImagedivFive{
+    /* border: 1px solid blue;  */
+    width: 4.2%;
+    margin-left: 6rem;
+    border-radius: 2rem;
+}
+.bookmarkImageFive{
+    /* border: 1px brown solid;  */
+    width: 74%;
+    border-radius: 2rem;
+    padding:2px;
+}
+.bookmarkImageFive:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+.shareIcondivFive{
+    /* border: 1px solid blue;  */
+    width:5%;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    height: 4vh;
+   
+}
+.shareIconFive{
+    /* border: 1px brown solid;  */
+    width: 90%;
+    border-radius: 3rem;
+    padding:2px;
+    /* margin: 0.2rem; */
+}
+
+.shareIcondivFive:hover{
+    background-color:rgb(187, 224, 249) ; 
+}
+
+
+
+
+
+
+
+
+.searchlogo-div{
+    width: 10%;
+    height: 2rem;
+    /* border: 1px solid  green;   */
+    /* padding: 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    text-align: center;
+    
+}
+.inputsearch{
+    width: 98%;
+    height: 1.2rem;
+    /* border: 1px red solid; */
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+   
+}
+
+.srch-div{    
+    width: 90%; 
+    /* border: 2px solid rgb(41, 7, 95);  */
+    /* display: flex; 
+    flex-direction: column; */
+    /* flex-wrap: wrap;  */
+    border: none;
+}
+
+.twitterSearch-div{
+    border: 0.1px solid rgb(239, 236, 236);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.2rem 0 0 0.5rem; 
+    height: 3vh;
+     border-radius: 10rem; 
+    /* margin: 0.1rem 2rem 5rem 0; */
+    height: 3rem;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin-left: 1.5rem;
+    background-color: rgb(254, 252, 252);
+  
+ }
+
+ .twitterSearch-div:hover{
+    box-shadow: 1px 1px 1px 1px rgb(143, 209, 243);
+
+ }
+
+ .search-icon{
+    /* border: 2px yellowgreen solid;  */
+    width: 70%;
+    /* margin: 5px;  */
+    height: 2rem;
+
+ }
+
+ .searchfor{
+    /* border: 2px solid peru;  */
+    width: 98%;
+    height: 1.5rem;
+    border: none;
+   
+ }
+
+ .yml{
+    /* border: 2px solid brown; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: larger;
+    margin: 0.5rem;
+    margin-top: 1.2rem;
+    height: 2rem;
+}
+
+.followers-div{
+    margin-right: 0.5rem;
+    /* border: 5px solid purple ; */
+}
+
+.allPictureOne-div{
+    /* border: 2px solid brown; */
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+   
+
+}
+
+.allPictureOne-div:hover{
+    background-color:whitesmoke;
+}
+
+.angjude{
+    /* border: 2px solid green; */
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ndi-jude{
+    /* border: 2px solid brown;  */
+    font-family: arial;
+    color: grey;
+    width: 60%;
+}
+
+.pictureOne{
+    /* border: 2px solid yellow;  */
+    border-radius: 50%;
+    width: 60%;
+}
+
+.anglophone{
+    /* border: 2px solid black; */
+    font-family: arial;
+    font-weight: bold;
+}
+
+.anglophone:hover{
+    text-decoration: underline;
+}
+.followPicOne-div{
+    /* border: 2px solid green; */
+    background-color: black;
+    color: white;
+    border-radius: 10rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    width: 15%;
+    text-align: center;
+    font-family: arial;
+    font-size: small;
+    font-weight: bold;
+    height: 1rem;
+   
+}
+
+.allPicturetwo-div{
+    /* border: 2px solid brown; */
+    display: flex;
+    width: 100%;
+    
+}
+
+.allPicturetwo-div:hover{
+    background-color:whitesmoke;
+}
+
+.pictureTwo{
+    /* border: 2px solid yellow;  */
+    border-radius: 50%;
+    width: 60%;
+    /* padding: 0.1rem; */
+    margin: 0 0 0 0.5rem;
+}
+
+.priscPaul-div{
+    /* border: 2px solid green; */
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.paul{
+    /* border: 2px solid black; */
+    font-family: arial;
+    font-weight: bold;   
+    text-decoration: none;
+}
+
+.paul:hover{
+    text-decoration: underline;
+   
+}
+
+.prissc{
+    /* border: 2px solid brown;  */
+    font-family: arial;
+    color: grey;
+    width: 60%;
+}
+
+.followPictwo-div{
+  /* border: 2px solid green;  */
+  background-color: black; 
+  color: white;
+  border-radius: 10rem;
+  height: 1.5rem;
+  padding: 0.5rem;
+  width: 15%;
+  text-align: center;
+  font-family: arial;
+  font-size: small;
+  font-weight: bold;
+  height: 1rem;
+}
+
+.allPicturethree-div{
+    /* border: 2px solid brown; */
+    display: flex; 
+    width: 100%;
+}
+
+.allPicturethree-div:hover{
+    background-color:whitesmoke;
+}
+
+.pictureThree{
+    /* border: 2px solid yellow;  */
+    border-radius: 40%;
+    width: 60%;
+    margin: 0.2rem 0 0 0.3rem; 
+    padding: 0.2rem;
+}
+
+.pictureThree-div{
+    /* border: 2px solid green; */
+    width: 20%;
+}
+.ibilshemy{
+    /* border: 2px solid green; */
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bilshem{
+    /* border: 2px solid black; */
+    font-family: arial;
+    font-weight: bold;   
+}
+
+.bilshem:hover{
+    text-decoration: underline;
+}
+.ibis{
+    /* border: 2px solid brown;  */
+    font-family: arial;
+    color: grey;
+    width: 60%;
+}
+
+.followPicthree-div{
+   /* border: 2px solid green; */
+   background-color: black;
+   color: white;
+   border-radius: 10rem;
+   height: 1.5rem;
+   padding: 0.5rem;
+   width: 15%;
+   text-align: center;
+   font-family: arial;
+   font-size: small;
+   font-weight: bold;
+   height: 1rem;
+}
+
+.fustSection{
+    border: 0.1px solid rgb(239, 236, 236);
+    width: 75%;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.showMore-div{
+ /* border: 2px solid purple;  */
+ margin-bottom: 1rem; 
+ height: 2rem;
+ margin: 0.8rem;
+}
+.showMore-div:hover{
+    background-color:whitesmoke;
+}
+.mores{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(49,164,241);
+    margin: 1rem;
+    text-decoration: none;
+    display: contents;
+    border: 2px solid red;
+    
+
+}
+
+.alltrendSection{
+    border: 0.1px solid rgb(239, 236, 236);
+    width: 75%;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  
+}
+
+.trends-div{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.trends-div:hover{
+    background-color:whitesmoke;
+}
+.trav-div{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.trav-div:hover{
+    background-color:whitesmoke;
+}
+
+.trendsfor{
+    /* border: 2px solid red; */
+    font-family:arial;
+    font-weight: bold;
+    font-size: large;
+    width: 40%;
+    height: 2.2rem;
+    margin-top: 1rem; 
+    margin: 0.5rem;
+}
+
+.trendIconFirst{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconFirst:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+
+.entertainment{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.juniorPope{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.sevenpost{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+
+
+.trending{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.mainland{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.fourfour{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconSecond{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconSecond:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+
+.rooms-div{
+   /* border: 2px solid peru;  */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.rooms-div:hover{
+    background-color:whitesmoke;
+}
+
+.trendingTwo{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+    /* margin-top: 1rem;  */
+}
+
+.trendIconThird{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+    
+}
+.trendIconThird:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+.roomOne{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.elevenTwo{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+
+
+.republic-div{
+   /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.republic-div:hover{
+    background-color:whitesmoke;
+}
+.trendingThree{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.chickenRepublic{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.fozs{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconFour{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconFour:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+
+.trendingFour{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.trendingFour:hover{
+    background-color:whitesmoke;
+}
+.sports{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.osimiyhen{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.oneThree{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconFive{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconFive:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+
+.trendingFive{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.trendingFive:hover{
+    background-color:whitesmoke;
+}
+.cisum{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.jbibier{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.fortysic{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconSix{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconSix:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+
+.trendingSix-div{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.trendingSix-div:hover{
+    background-color:whitesmoke;
+}
+.msic{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.melon{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.oneSeven{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconSeven{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconSeven:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+.trendingSeven{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+
+}
+.trendingSeven:hover{
+    background-color:whitesmoke;
+}
+.ding{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.zintle{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.stsop{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconEight{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconEight:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+.trendingEight{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.trendingEight:hover{
+    background-color:whitesmoke;
+}
+.stars{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.baye{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.zerothree{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconNine{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconNine:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+.trendingNil{
+    /* border: 2px solid peru; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin: 0.5rem;
+   margin-bottom: 1.5rem;
+}
+.trendingNil:hover{
+    background-color:whitesmoke;
+}
+.trendingNine{
+    /* border: 2px solid yellow; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ;
+}
+.mork{
+    /* border: 1px solid red; */
+    padding: 1px;
+    font-family: arial;
+    font-weight: bold;
+}
+.kone{
+    /* border: 1px solid purple; */
+    padding: 1px;
+    color: gray;
+    font-size:15px ; 
+}
+.trendIconTen{
+    width: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+}
+.trendIconTen:hover{
+    background-color:rgb(195, 223, 242) ;
+    border: none;
+}
+.tsppcc{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 2rem;
+    
+}
+.servterms{
+    font-family: inherit;
+    color: grey;
+    text-decoration: none;
+}
+.servterms:hover{
+    text-decoration: underline;
+}
+.ppolicy{
+    font-family: inherit;
+    color: grey;
+    text-decoration: none;
+}
+.ppolicy:hover{
+    text-decoration: underline;
+}
+.coooki{
+    font-family: inherit;
+    color: grey;
+    text-decoration: none;
+}
+.coooki:hover{
+    text-decoration: underline;
+}
+.acads{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 2rem;
+    margin-top: -2rem;
+    
+}
+.subukity{
+    font-family: inherit;
+    color: grey;
+    text-decoration: none;
+}
+.subukity:hover{
+    text-decoration: underline;
+}
+.adsinfo{
+    font-family: inherit;
+    color: grey;
+    text-decoration: none;
+}
+.adsinfo:hover{
+    text-decoration: underline;
+}
+.moree{
+    font-family: inherit;
+    color: grey;
+    text-decoration: none;
+}
+.moree:hover{
+    text-decoration: underline;
+}
+.corpfour{
+    font-family: inherit;
+    color: grey;
+    text-decoration: none;
+}
+
